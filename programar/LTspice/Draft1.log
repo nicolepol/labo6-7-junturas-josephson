@@ -1,0 +1,18 @@
+LTspice 24.1.5 for Windows
+Circuit: C:\Users\nikip\OneDrive\LABO 6Y7\programar\LTspice\Draft1.net
+Start Time: Thu Aug 20 12:51:13 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+.OP point found by inspection.
+Total elapsed time: 0.229 seconds.
+
+Files loaded:
+C:\Users\nikip\OneDrive\LABO 6Y7\programar\LTspice\Draft1.net
+
+z0: mag(V(jp,jn))=(130.803872621dB,0°) at 0.01
+fc_juntura: mag(V(jp,jn))=z0*0.7071067812 AT 0.0141422058489
+v0: mag(V(vp,vn))=(130.803868864dB,0°) at 0.01
+fc_volt: mag(V(vp,vn))=v0*0.7071067812 AT 0.0141422058407

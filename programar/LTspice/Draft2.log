@@ -1,0 +1,19 @@
+LTspice 24.1.5 for Windows
+Circuit: C:\Users\nikip\OneDrive\LABO 6Y7\programar\LTspice\Draft2.net
+Start Time: Thu Aug 20 13:36:19 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node n006 is floating.
+
+.OP point found by inspection.
+
+Simulation Failed: Matrix is singular
+
+Total elapsed time: 0.123 seconds.
+
+Files loaded:
+C:\Users\nikip\OneDrive\LABO 6Y7\programar\LTspice\Draft2.net
+

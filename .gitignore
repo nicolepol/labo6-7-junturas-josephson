@@ -1,0 +1,29 @@
+# Por defecto no se versiona nada en la raíz de LABO 6Y7...
+/*
+
+# ...salvo lo siguiente:
+!/.gitignore
+!/README.md
+!/programar/
+!/barrido 5/
+!/barrido 6/
+!/barrido 7/
+!/barrido 8/
+!/barrido 9/
+!/barrido(22k-49k)/
+!/barrido(3k-19k)/
+!/barrido(52-195)k/
+!/barrido(67-1000)/
+
+# dentro de programar/, no versionar el entorno virtual ni cachés
+/programar/.venv/
+/programar/__pycache__/
+/programar/tmp/
+/programar/.claude/
+
+# duplicados que a veces deja OneDrive al sincronizar
+*[Cc]opy*.csv
+*.tmp
+
+# PDFs (tesis, plan de trabajo) -- no forman parte del código/datos
+*.pdf
