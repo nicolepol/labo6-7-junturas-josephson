@@ -15,6 +15,19 @@
 !/barrido(52-195)k/
 !/barrido(67-1000)/
 
+# de barridos/, solo las carpetas que usa analisis_filtro_ambiente.ipynb
+!/barridos/
+/barridos/*
+!/barridos/5/
+!/barridos/6/
+/barridos/5/*
+/barridos/6/*
+!/barridos/5/barrido_automatico_cable19/
+!/barridos/5/barrido_filtroamb_cable2/
+!/barridos/5/barrido_filtroamb_cable24/
+!/barridos/6/barrido_filtroamb_cable23/
+!/barridos/6/barrido_filtroamb_cable9/
+
 # dentro de programar/, no versionar el entorno virtual ni cachés
 /programar/.venv/
 /programar/__pycache__/
