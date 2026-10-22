@@ -5,12 +5,13 @@ Laboratorio 6/7, Lic. en Física (UBA).
 
 ## Estructura
 
-- `programar/`: notebooks y clases de control de instrumental (`class_spectrum_analyzer.py`,
-  `class_signal_generator.py`) y de análisis de datos.
-- `barrido*/`: datos crudos de los barridos en frecuencia hechos con
-  `programar/keysight_SA_control.ipynb` (generador + analizador de espectro
-  Keysight N9021B). Cada `.csv` es una traza completa para una frecuencia de
-  prueba (`sweep_f_test_<f>kHz.csv`).
+- `programar/`: notebooks de simulación y análisis, y clases de control del
+  instrumental (`class_spectrum_analyzer.py`, `class_signal_generator.py`).
+- `barridos/1` a `barridos/8`: datos crudos de los barridos en frecuencia
+  (generador + analizador de espectro Keysight N9021B), agrupados por día de
+  medición. Cada `.csv` es una traza completa para una frecuencia de prueba
+  (`sweep_f_test_<f>kHz.csv`).
+- `LTspice/`: simulaciones de los filtros en LTspice.
 
 ## Para arrancar
 
@@ -22,9 +23,8 @@ pip install -r requirements.txt
 jupyter lab
 ```
 
-Los notebooks de análisis (por ejemplo `analisis_barridos_frecuencia.ipynb`)
-leen los datos con rutas relativas (`barrido*/` al lado de `programar/`), así
-que alcanza con clonar el repo y correrlos, sin tocar ninguna ruta.
+Los notebooks leen los datos con rutas relativas (`../barridos/...`), así que
+alcanza con clonar el repo y correrlos.
 
-`keysight_SA_control.ipynb` necesita estar en la red del labo (usa las IPs
-del generador y el analizador de espectro).
+`keysight_SA_control.ipynb` y `barrido_automatico.ipynb` necesitan estar en la
+red del labo (usan las IPs del generador y el analizador de espectro).
