@@ -12,7 +12,8 @@ Laboratorio 6/7, Lic. en Física (UBA).
   medición. Cada `.csv` es una traza completa para una frecuencia de prueba
   (`sweep_f_test_<f>kHz.csv`).
 - `LTspice/`: simulaciones de los filtros en LTspice.
-- `bibliografia/`: tesis de licenciatura de Francisco Bazano (2026) y
+- `bibliografia/`: plan de trabajo de Labo 6/7, tesis de licenciatura de
+  Francisco Bazano (2026) y
   `arr-jj.pdf` (documento del filtro de temperatura ambiente).
 
 ## Para arrancar

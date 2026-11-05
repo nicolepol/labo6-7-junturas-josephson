@@ -8,7 +8,7 @@ __pycache__/
 # duplicados que a veces deja OneDrive al sincronizar
 *[Cc]opy*.csv
 
-# PDFs (plan de trabajo, etc.): no forman parte del código ni de los datos
+# PDFs sueltos: no forman parte del código ni de los datos
 *.pdf
 # ...salvo la bibliografía
 !/bibliografia/*.pdf
